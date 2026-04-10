@@ -1,0 +1,14 @@
+{
+  "name": "sistema-rna",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Monorepo: frontend (Vite/React) + backend (NestJS)",
+  "scripts": {
+    "dev:front": "npm run dev --prefix frontend",
+    "dev:back": "npm run start:dev --prefix backend",
+    "build:front": "npm run build --prefix frontend",
+    "build:back": "npm run build --prefix backend",
+    "lint:front": "npm run lint --prefix frontend",
+    "lint:back": "npm run lint --prefix backend"
+  }
+}
